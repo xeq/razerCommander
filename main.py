@@ -152,6 +152,7 @@ gameModeIcon = builder.get_object("gameModeIcon")
 gameModeSwitch = builder.get_object("gameModeSwitch")
 
 brightnessScale = builder.get_object("brightnessScale")
+brightnessScale.set_value(50)
 
 fxListBox = builder.get_object("fxListBox")
 
